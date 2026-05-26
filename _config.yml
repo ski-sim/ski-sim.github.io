@@ -44,7 +44,7 @@ external_services:
   github_profile_trophy_url: https://github-profile-trophy.vercel.app
 
 # -----------------------------------------------------------------------------
-# al-folio API (v1.x)
+# al-folio API (v1.x) 
 # -----------------------------------------------------------------------------
 
 al_folio:
