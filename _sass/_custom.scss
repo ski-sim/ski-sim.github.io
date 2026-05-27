@@ -1,0 +1,23 @@
+// Center navbar items
+nav.navbar .container {
+  justify-content: center !important;
+}
+
+nav.navbar .navbar-brand {
+  position: absolute;
+  left: 1rem;
+}
+
+nav.navbar .navbar-nav {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+// Search + dark mode stay on right
+nav.navbar .search-bar,
+nav.navbar #search-button,
+nav.navbar #theme-toggle,
+nav.navbar .toggle-container {
+  position: absolute;
+  right: 1rem;
+}
