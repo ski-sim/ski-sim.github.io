@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started M.S. at the [Graduate School of Data Science, KAIST](https://gsds.kaist.ac.kr/), advised by Prof. Jinkyoo Park.
+Started M.S. at the [Graduate School of Industrial & Systems Engineering, KAIST](https://gsds.kaist.ac.kr/), advised by Prof. Jinkyoo Park.

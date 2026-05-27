@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.S. Student, Graduate School of Data Science, KAIST
+subtitle: M.S. Student, Graduate School of Industrial & Systems Engineering, KAIST
 
 profile:
   align: right
@@ -22,7 +22,7 @@ latest_posts:
   enabled: false
 ---
 
-I am an M.S. student in the Graduate School of Data Science at KAIST, advised by Prof. Jinkyoo Park in the [System Intelligence Lab](https://silab.kaist.ac.kr/).
+I am an M.S. Student, Graduate School of Industrial & Systems Engineering, KAIST, advised by Prof. Jinkyoo Park in the [System Intelligence Lab](https://silab.kaist.ac.kr/).
 
 I received my B.S. in Industrial Engineering from Hanyang University. I worked with Prof. Jaewook Song at the [Financial Innovation & AnalytiX - FINX Lab](https://finx.hanyang.ac.kr/), focusing on graph-structured problems, particularly algorithm design and problem formulation. During an internship at [SPACEMAP](https://www.spacemap42.com/), I developed satellite collision probability algorithms and shortest-path algorithms for satellite communications.
 
