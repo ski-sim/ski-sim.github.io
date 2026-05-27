@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Shin-woocheol.github.io/sitemap.xml
+Sitemap: https://ski-sim.github.io/sitemap.xml

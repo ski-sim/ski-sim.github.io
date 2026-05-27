@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Curriculum Vitae of Woocheol Shin.",
+          description: "Curriculum Vitae of Kyuil Sim.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -484,7 +484,7 @@ ninja.data = [{
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/Shin-woocheol", "_blank");
+          window.open("https://github.com/ski-sim", "_blank");
         },
       },{
         id: 'social-linkedin',
