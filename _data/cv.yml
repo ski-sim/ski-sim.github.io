@@ -1,5 +1,5 @@
 cv:
-  name: Woocheol Shin
+  name: Kyuil Sim
   label: M.S. Student
   email: woofe@kaist.ac.kr
   phone: (+82) 010-4340-2018
@@ -12,7 +12,7 @@ cv:
 
   social_networks:
     - network: GitHub
-      username: Shin-woocheol
+      username: ski-sim
 
   sections:
     Education:
@@ -64,31 +64,31 @@ cv:
     Publications:
       - title: "Diffusion Fine-Tuning via Reparameterized Policy Gradient of the Soft Q-Function"
         authors:
-          - "Hyeongyu Kang, Jaewoo Lee, Woocheol Shin, Kiyoung Om, Jinkyoo Park"
+          - "Hyeongyu Kang, Jaewoo Lee, Kyuil Sim, Kiyoung Om, Jinkyoo Park"
         publisher: ICLR 2026
         releaseDate: 2026
 
       - title: "Diffusion Alignment as Variational Expectation-Maximization"
         authors:
-          - "Jaewoo Lee, Minsu Kim, Sanghyeok Choi, Inhyuck Song, Sujin Yun, Hyeongyu Kang, Woocheol Shin, Taeyoung Yun, Kiyoung Om, Jinkyoo Park"
+          - "Jaewoo Lee, Minsu Kim, Sanghyeok Choi, Inhyuck Song, Sujin Yun, Hyeongyu Kang, Kyuil Sim, Taeyoung Yun, Kiyoung Om, Jinkyoo Park"
         publisher: ICLR 2026
         releaseDate: 2026
 
       - title: "Urban Traffic Network Layout Optimization with Guided Discrete Diffusion Models"
         authors:
-          - "Taeyoung Yun, Inhyuck Song, Woocheol Shin, Yujin Shin, Sungpil Woo, Sunghwan Lim, Jinkyoo Park"
+          - "Taeyoung Yun, Inhyuck Song, Kyuil Sim, Yujin Shin, Sungpil Woo, Sunghwan Lim, Jinkyoo Park"
         publisher: WSDM 2026
         releaseDate: 2026
 
       - title: "Beyond Trivial Edges: A Fractional Approach to Cohesive Subgraph Detection in Hypergraphs"
         authors:
-          - "Hyewon Kim, Woocheol Shin, Dahee Kim, Junghoon Kim, Sungsu Lim, Hyunji Jeong"
+          - "Hyewon Kim, Kyuil Sim, Dahee Kim, Junghoon Kim, Sungsu Lim, Hyunji Jeong"
         publisher: Knowledge-Based Systems
         releaseDate: 2025
 
       - title: "Complex Network Stability: Exploring Comprehensive Anchored Edge s-Core"
         authors:
-          - "Taejoon Han, Hyewon Kim, Seongsik Hwang, Woocheol Shin, Junghoon Kim, Jaehyun Bhang, Hyeongi Hong"
+          - "Taejoon Han, Hyewon Kim, Seongsik Hwang, Kyuil Sim, Junghoon Kim, Jaehyun Bhang, Hyeongi Hong"
         publisher: "Korea Database Conference (WiP Track)"
         releaseDate: 2024
 
@@ -120,7 +120,7 @@ cv:
     Patent:
       - title: "Data Analysis System and Method for Detecting Cohesive Subgraph in Hypergraphs"
         date: 2025-08
-        summary: "Korean Patent Application No. 10-2025-0107601. Applicants: UNIST; Industry-Academic Cooperation Foundation, Kongju National University. Inventors: Junghoon Kim, Hyewon Kim, Woocheol Shin, Dahee Kim, Hyunji Jeong."
+        summary: "Korean Patent Application No. 10-2025-0107601. Applicants: UNIST; Industry-Academic Cooperation Foundation, Kongju National University. Inventors: Junghoon Kim, Hyewon Kim, Kyuil Sim, Dahee Kim, Hyunji Jeong."
 
     Projects:
       - name: "UIRP, UNIST (Undergraduate Interdisciplinary Research Project)"
