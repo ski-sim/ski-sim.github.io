@@ -398,8 +398,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-started-m-s-at-the-graduate-school-of-data-science-kaist-advised-by-prof-jinkyoo-park",
-          title: 'Started M.S. at the Graduate School of Data Science, KAIST, advised by Prof....',
+            },},{id: "news-started-m-s-at-the-graduate-school-of-industrial-amp-amp-systems-engineering-kaist-advised-by-prof-jinkyoo-park",
+          title: 'Started M.S. at the Graduate School of Industrial &amp;amp;amp; Systems Engineering, KAIST, advised...',
           description: "",
           section: "News",},{id: "news-paper-accepted-to-neurips-2025-workshop-spigm",
           title: 'Paper accepted to NeurIPS 2025 Workshop SPIGM!',
