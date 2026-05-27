@@ -1,4 +1,7 @@
-// Center navbar items
+---
+---
+
+/* Center navbar items */
 nav.navbar .container {
   justify-content: center !important;
 }
@@ -13,7 +16,6 @@ nav.navbar .navbar-nav {
   margin-right: 0 !important;
 }
 
-// Search + dark mode stay on right
 nav.navbar .search-bar,
 nav.navbar #search-button,
 nav.navbar #theme-toggle,
