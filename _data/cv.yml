@@ -1,32 +1,34 @@
 cv:
   name: Kyuil Sim
   label: M.S. Student
-  email: woofe@kaist.ac.kr
-  phone: (+82) 010-4340-2018
+  email: kyuil.sim@kaist.ac.kr
+  phone: (+82) 010-7237-3164
   location: Daejeon, South Korea
   image: ""
   summary: >
-    I am broadly interested in building generative policies for sequential decision-making toward human-desired goals in the real world.
-    My current research focuses on steering large generative models, especially diffusion and flow-based models, toward desired outputs
-    using reinforcement learning and reward-guided optimization.
+    My research focuses on leveraging Machine Learning for Combinatorial Optimization (ML4CO), with a specific emphasis on Mixed-Integer Linear Programming (MILP). I am currently exploring the development of discrete diffusion models as a novel framework for solving these complex optimization challenges
 
   social_networks:
     - network: GitHub
       username: ski-sim
+    - network: Google Scholar
+      username: YLL1o0AAAAAJ
+    - network: LinkedIn
+      username: kyuil-sim-634823291
 
   sections:
     Education:
       - institution: KAIST
         location: Daejeon, South Korea
         url: https://gsds.kaist.ac.kr/
-        area: Data Science
-        studyType: M.S., Graduate School of Data Science
+        area: Industrial & Systems Engineering
+        studyType: M.S., Graduate School of Industrial and Systems Engineering
         start_date: 2025-02
         end_date: Present
 
-      - institution: UNIST
-        location: Ulsan, South Korea
-        url: https://cse.unist.ac.kr/
+      - institution: Hanyang University
+        location: Seoul, South Korea
+        url: https://www.hanyang.ac.kr/
         area: Computer Science and Engineering
         studyType: B.S.
         start_date: 2019-02
@@ -36,126 +38,114 @@ cv:
       - company: System Intelligence Lab, KAIST
         position: Undergraduate Research Intern
         location: Daejeon, South Korea
-        start_date: 2024-10
-        end_date: 2025-02
+        start_date: 2024-07
+        end_date: 2024-09
         summary: "Advisor: Prof. Jinkyoo Park. Focus: Generative model alignment, Diffusion/Flow models, Reinforcement learning."
 
-      - company: Data Mining Lab, UNIST
+      - company:  Financial Innovation & AnalytiX Lab, HYU
         position: Undergraduate Researcher, Seminar Organizer
-        location: Ulsan, South Korea
-        start_date: 2022-12
-        end_date: 2024-06
+        location: Seoul, South Korea
+        start_date: 2023-08
+        end_date: 2024-02
         summary: "Advisor: Prof. Junghoon Kim. Focus: Network stability, Cohesive subgraph discovery."
 
-    Industrial Projects:
-      - company: Collaborative Project with ETRI
-        position: Researcher
-        start_date: 2025-02
-        end_date: Present
-        summary: "Topic: Reinforcement Learning-based Job Scheduling Policy Learning"
+    # Industrial Projects:
+    #   - company: Collaborative Project with ETRI
+    #     position: Researcher
+    #     start_date: 2025-02
+    #     end_date: Present
+    #     summary: "Topic: Reinforcement Learning-based Job Scheduling Policy Learning"
 
     Teaching Experience:
       - company: KAIST
         position: Teaching Assistant
         start_date: 2025-09
         end_date: 2025-12
-        summary: "IE437: Data-Driven Decision Making and Control"
+        summary: "IE251: Manufacturing Process Innovation"
 
     Publications:
-      - title: "Diffusion Fine-Tuning via Reparameterized Policy Gradient of the Soft Q-Function"
+      - title: "Solving Integer Linear Programming with Parallel Tempering"
         authors:
-          - "Hyeongyu Kang, Jaewoo Lee, Kyuil Sim, Kiyoung Om, Jinkyoo Park"
-        publisher: ICLR 2026
+          - "Kyuil Sim, Sanghyeok Choi, Jinkyoo Park"
+        publisher: "ICML Workshop"
         releaseDate: 2026
-
-      - title: "Diffusion Alignment as Variational Expectation-Maximization"
+        
+      - title: "Posterior Inference in Latent Space for Scalable Constrained Black-box Optimization"
         authors:
-          - "Jaewoo Lee, Minsu Kim, Sanghyeok Choi, Inhyuck Song, Sujin Yun, Hyeongyu Kang, Kyuil Sim, Taeyoung Yun, Kiyoung Om, Jinkyoo Park"
-        publisher: ICLR 2026
-        releaseDate: 2026
-
-      - title: "Urban Traffic Network Layout Optimization with Guided Discrete Diffusion Models"
-        authors:
-          - "Taeyoung Yun, Inhyuck Song, Kyuil Sim, Yujin Shin, Sungpil Woo, Sunghwan Lim, Jinkyoo Park"
-        publisher: WSDM 2026
-        releaseDate: 2026
-
-      - title: "Beyond Trivial Edges: A Fractional Approach to Cohesive Subgraph Detection in Hypergraphs"
-        authors:
-          - "Hyewon Kim, Kyuil Sim, Dahee Kim, Junghoon Kim, Sungsu Lim, Hyunji Jeong"
-        publisher: Knowledge-Based Systems
+          - "Kiyoung Om*, Kyuil Sim*, Taeyoung Yun*, Hyeongyu Kang, Jinkyoo Park"
+        publisher: "NeurIPS Workshop"
         releaseDate: 2025
-
-      - title: "Complex Network Stability: Exploring Comprehensive Anchored Edge s-Core"
+        
+      - title: "AstroLibrary: A library for real-time conjunction assessment and optimal collision avoidance"
         authors:
-          - "Taejoon Han, Hyewon Kim, Seongsik Hwang, Kyuil Sim, Junghoon Kim, Jaehyun Bhang, Hyeongi Hong"
-        publisher: "Korea Database Conference (WiP Track)"
+          - "Shawn SH Choi, Peter JH Ryu, Kyuil Sim, Jaedong Seong, Jae Wook Song, Misoon Mah, and  Douglas DS Kim"
+        publisher: "JSSE"
         releaseDate: 2024
 
-    Awards:
-      - title: Excellence Award, ISE & GSDS Research Day Poster Competition
-        awarder: KAIST
-        date: 2025-11
-        summary: "For the poster: Diffusion Finetuning via Reparameterized Policy Gradient of the Soft Q-function"
+    # Awards:
+    #   - title: Excellence Award, ISE & GSDS Research Day Poster Competition
+    #     awarder: KAIST
+    #     date: 2025-11
+    #     summary: "For the poster: Diffusion Finetuning via Reparameterized Policy Gradient of the Soft Q-function"
 
-      - title: Dean's List
-        awarder: UNIST CSE
-        date: 2024-09
-        summary: Awarded to top 4 students out of 224
+    #   - title: Dean's List
+    #     awarder: UNIST CSE
+    #     date: 2024-09
+    #     summary: Awarded to top 4 students out of 224
 
-      - title: Superior Semester Grades
-        awarder: UNIST
-        date: 2024
-        summary: "Spring 2023 (4.3/4.3), Fall 2023 (4.24/4.3), Spring 2024 (4.3/4.3)"
+    #   - title: Superior Semester Grades
+    #     awarder: UNIST
+    #     date: 2024
+    #     summary: "Spring 2023 (4.3/4.3), Fall 2023 (4.24/4.3), Spring 2024 (4.3/4.3)"
 
-    Scholarships:
-      - title: KAIST Scholarship
-        awarder: KAIST
-        summary: Whole semesters
+    # Scholarships:
+      # - title: KAIST Scholarship
+      #   awarder: KAIST
+      #   summary: Whole semesters
 
-      - title: Academic Performance Scholarship
-        awarder: UNIST
-        summary: Whole semesters
+      # - title: Academic Performance Scholarship
+      #   awarder: UNIST
+      #   summary: Whole semesters
 
-    Patent:
-      - title: "Data Analysis System and Method for Detecting Cohesive Subgraph in Hypergraphs"
-        date: 2025-08
-        summary: "Korean Patent Application No. 10-2025-0107601. Applicants: UNIST; Industry-Academic Cooperation Foundation, Kongju National University. Inventors: Junghoon Kim, Hyewon Kim, Kyuil Sim, Dahee Kim, Hyunji Jeong."
+    # Patent:
+    #   - title: "Data Analysis System and Method for Detecting Cohesive Subgraph in Hypergraphs"
+    #     date: 2025-08
+    #     summary: "Korean Patent Application No. 10-2025-0107601. Applicants: UNIST; Industry-Academic Cooperation Foundation, Kongju National University. Inventors: Junghoon Kim, Hyewon Kim, Kyuil Sim, Dahee Kim, Hyunji Jeong."
 
-    Projects:
-      - name: "UIRP, UNIST (Undergraduate Interdisciplinary Research Project)"
-        summary: "Topic: Generalised Anchoring Methods for Maximising User Engagement in Complex Social Networks"
-        start_date: 2024-03
-        end_date: 2024-05
+    # Projects:
+    #   - name: "UIRP, UNIST (Undergraduate Interdisciplinary Research Project)"
+    #     summary: "Topic: Generalised Anchoring Methods for Maximising User Engagement in Complex Social Networks"
+    #     start_date: 2024-03
+    #     end_date: 2024-05
 
-      - name: Creative Independent Project, UNIST AIGS
-        summary: "Topic: A Budget Minimisation to Reinforcing Social Engagement"
-        start_date: 2023-10
-        end_date: 2024-05
+    #   - name: Creative Independent Project, UNIST AIGS
+    #     summary: "Topic: A Budget Minimisation to Reinforcing Social Engagement"
+    #     start_date: 2023-10
+    #     end_date: 2024-05
 
-      - name: "AICP, UNIST (UNIST AI Challengers Program)"
-        summary: "Topic: Bipartite Cohesive Subgraph Discovery in Networks"
-        start_date: 2023-04
-        end_date: 2023-12
+    #   - name: "AICP, UNIST (UNIST AI Challengers Program)"
+    #     summary: "Topic: Bipartite Cohesive Subgraph Discovery in Networks"
+    #     start_date: 2023-04
+    #     end_date: 2023-12
 
     Other Experiences:
-      - company: NAVER CONNECT 1784 School Revolution Program, NAVER
-        position: Instructor
-        start_date: 2022-12
-        end_date: 2023-02
-        summary: Teaching AI, SW, and Autonomous Vehicles
+      - company: SPACEMAP, NAVER
+        position: Intern
+        start_date: 2023-08
+        end_date: 2024-02
+        summary: Develop the algorithm, and manage the backend.
 
-      - company: ARAMCO Coding School, ARAMCO
-        position: Instructor
-        start_date: 2022-08
-        end_date: 2022-11
-        summary: Teaching Programming, iOS app development
+      # - company: ARAMCO Coding School, ARAMCO
+      #   position: Instructor
+      #   start_date: 2022-08
+      #   end_date: 2022-11
+      #   summary: Teaching Programming, iOS app development
 
-      - company: Education Donation Activities by University Students, KOFAC
-        position: Instructor
-        start_date: 2019-05
-        end_date: 2019-07
-        summary: Teaching Programming
+      # - company: Education Donation Activities by University Students, KOFAC
+      #   position: Instructor
+      #   start_date: 2019-05
+      #   end_date: 2019-07
+      #   summary: Teaching Programming
 
     References:
       - name: Prof. Jinkyoo Park
@@ -164,7 +154,7 @@ cv:
           Adjunct Associate Professor, Graduate School of Data Science and Graduate School of AI, KAIST.<br>
           Email: [jinkyoo.park@kaist.ac.kr](mailto:jinkyoo.park@kaist.ac.kr)
 
-      - name: Prof. Junghoon Kim
+      - name: Prof. Jaewook Song
         reference: >
-          Assistant Professor, Department of Computer Science and Engineering, UNIST.<br>
-          Email: [junghoon.kim@unist.ac.kr](mailto:junghoon.kim@unist.ac.kr)
+          Associate Professor, Department of Industrial Engineering, Hanyang University.<br>
+          Email: [jwsong@hanyang.ac.kr](mailto:jwsong@hanyang.ac.kr)
