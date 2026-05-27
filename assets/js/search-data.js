@@ -401,14 +401,11 @@ ninja.data = [{
             },},{id: "news-started-m-s-at-the-graduate-school-of-data-science-kaist-advised-by-prof-jinkyoo-park",
           title: 'Started M.S. at the Graduate School of Data Science, KAIST, advised by Prof....',
           description: "",
-          section: "News",},{id: "news-paper-accepted-to-knowledge-based-systems",
-          title: 'Paper accepted to Knowledge-Based Systems!',
+          section: "News",},{id: "news-paper-accepted-to-neurips-2025-workshop-spigm",
+          title: 'Paper accepted to NeurIPS 2025 Workshop SPIGM!',
           description: "",
-          section: "News",},{id: "news-paper-accepted-to-wsdm-2026",
-          title: 'Paper accepted to WSDM 2026!',
-          description: "",
-          section: "News",},{id: "news-two-papers-accepted-to-iclr-2026",
-          title: 'Two papers accepted to ICLR 2026!',
+          section: "News",},{id: "news-two-papers-accepted-to-icml-2026-workshop-spigm",
+          title: 'Two papers accepted to ICML 2026 Workshop SPIGM!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -470,14 +467,14 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%77%6F%6F%66%65@%6B%61%69%73%74.%61%63.%6B%72", "_blank");
+          window.open("mailto:%6B%79%75%69%6C.%73%69%6D@%6B%61%69%73%74.%61%63.%6B%72", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=PmRv-_kAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=YLL1o0AAAAAJ", "_blank");
         },
       },{
         id: 'social-github',
@@ -491,7 +488,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/woocheol-shin-b42a44344", "_blank");
+          window.open("https://www.linkedin.com/in/kyuil-sim-634823291", "_blank");
         },
       },{
       id: 'light-theme',
