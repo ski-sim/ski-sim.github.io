@@ -6,7 +6,7 @@ subtitle: M.S. Student, Graduate School of Industrial & Systems Engineering, KAI
 
 profile:
   align: right
-  image: prof_pic_new.jpg
+  image: prof_pic_kyuil.jpg
   image_circular: false
   more_info:
 
