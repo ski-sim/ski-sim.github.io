@@ -1,9 +1,17 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Map of BibTeX `abbr` values → venue metadata.
+# `color` sets the badge background; `url` makes the badge clickable.
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ICLR":
+  url: https://iclr.cc/
+  color: "#0b6fe5"
 
-"Vision":
-  color: "#009f36"
+"WSDM":
+  url: https://www.wsdm-conference.org/
+  color: "#b0022a"
+
+"KBS":
+  url: https://www.sciencedirect.com/journal/knowledge-based-systems
+  color: "#eb6500"
+
+"KDBC":
+  color: "#6c757d"
