@@ -116,7 +116,13 @@
             {%- assign ma_is_self = true -%}
           {% endif %}
           {%- if ma_is_self -%}
-            {% assign more_authors_show = more_authors_show | append: '<em>' | append: author.first | append: ' ' | append: author.last | append: '</em>' %}
+            {% assign more_authors_show = more_authors_show
+              | append: '<em>'
+              | append: author.first
+              | append: ' '
+              | append: author.last
+              | append: '</em>'
+            %}
           {%- else -%}
             {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
           {%- endif -%}

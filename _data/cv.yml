@@ -29,7 +29,7 @@ cv:
       - institution: Hanyang University
         location: Seoul, South Korea
         url: https://www.hanyang.ac.kr/
-        area: Computer Science and Engineering
+        area: Industrial Engineering
         studyType: B.S.
         start_date: 2019-02
         end_date: 2025-02
@@ -40,14 +40,14 @@ cv:
         location: Daejeon, South Korea
         start_date: 2024-07
         end_date: 2024-09
-        summary: "Advisor: Prof. Jinkyoo Park. Focus: Generative model alignment, Diffusion/Flow models, Reinforcement learning."
+        summary: "Advisor: Prof. Jinkyoo Park. Focus: Neural Combinatorial Optimization, Reinforcement learning."
 
-      - company:  Financial Innovation & AnalytiX Lab, HYU
-        position: Undergraduate Researcher, Seminar Organizer
+      - company: Financial Innovation & AnalytiX Lab, HYU
+        position: Undergraduate Researcher
         location: Seoul, South Korea
         start_date: 2023-08
         end_date: 2024-02
-        summary: "Advisor: Prof. Junghoon Kim. Focus: Network stability, Cohesive subgraph discovery."
+        summary: "Advisor: Prof. Jaewook Song. Focus: link optimization, collision probability estimation."
 
     # Industrial Projects:
     #   - company: Collaborative Project with ETRI
@@ -69,13 +69,19 @@ cv:
           - "Kyuil Sim, Sanghyeok Choi, Jinkyoo Park"
         publisher: "ICML Workshop"
         releaseDate: 2026
-        
+
+      - title: "Aligning Few-Step Generative Models by Amortizing Sample-based Variational Inference"
+        authors:
+          - "Jaewoo Lee, Hyeongyu Kang, Dohyun Kim, Kyuil Sim, Woocheol Shin, Minsu Kim, Taeyoung Yun, Jeongjae Lee, Sanghyeok Choi, Tabitha Edith Lee, Jong Chul Ye, Jinkyoo Park"
+        publisher: "ICML Workshop"
+        releaseDate: 2026
+
       - title: "Posterior Inference in Latent Space for Scalable Constrained Black-box Optimization"
         authors:
           - "Kiyoung Om*, Kyuil Sim*, Taeyoung Yun*, Hyeongyu Kang, Jinkyoo Park"
         publisher: "NeurIPS Workshop"
         releaseDate: 2025
-        
+
       - title: "AstroLibrary: A library for real-time conjunction assessment and optimal collision avoidance"
         authors:
           - "Shawn SH Choi, Peter JH Ryu, Kyuil Sim, Jaedong Seong, Jae Wook Song, Misoon Mah, and  Douglas DS Kim"
@@ -99,13 +105,13 @@ cv:
     #     summary: "Spring 2023 (4.3/4.3), Fall 2023 (4.24/4.3), Spring 2024 (4.3/4.3)"
 
     # Scholarships:
-      # - title: KAIST Scholarship
-      #   awarder: KAIST
-      #   summary: Whole semesters
+    # - title: KAIST Scholarship
+    #   awarder: KAIST
+    #   summary: Whole semesters
 
-      # - title: Academic Performance Scholarship
-      #   awarder: UNIST
-      #   summary: Whole semesters
+    # - title: Academic Performance Scholarship
+    #   awarder: UNIST
+    #   summary: Whole semesters
 
     # Patent:
     #   - title: "Data Analysis System and Method for Detecting Cohesive Subgraph in Hypergraphs"
@@ -129,7 +135,7 @@ cv:
     #     end_date: 2023-12
 
     Other Experiences:
-      - company: SPACEMAP, NAVER
+      - company: SPACEMAP
         position: Intern
         start_date: 2023-08
         end_date: 2024-02
