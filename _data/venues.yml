@@ -15,3 +15,14 @@
 
 "KDBC":
   color: "#6c757d"
+
+"JSSE":
+  color: "#6c757d"
+
+"NeurIPS Workshop":
+  url: https://neurips.cc/
+  color: "#6A1B9A"
+
+"ICML Workshop":
+  url: https://icml.cc/
+  color: "#1a237e"
