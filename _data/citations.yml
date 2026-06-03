@@ -1,19 +1,11 @@
 metadata:
-  last_updated: '2026-05-18'
+  last_updated: '2026-06-03'
 papers:
-  PmRv-_kAAAAJ:9yKSN-GCB0IC:
-    citations: 0
-    title: Urban Traffic Network Layout Optimization with Guided Discrete Diffusion Models
-    year: '2026'
-  PmRv-_kAAAAJ:d1gkVwhDpl0C:
+  YLL1o0AAAAAJ:d1gkVwhDpl0C:
     citations: 1
-    title: Diffusion Fine-Tuning via Reparameterized Policy Gradient of the Soft Q-Function
+    title: Posterior Inference in Latent Space for Scalable Constrained Black-box Optimization
     year: '2025'
-  PmRv-_kAAAAJ:u-x6o8ySG0sC:
-    citations: 0
-    title: Diffusion Alignment as Variational Expectation-Maximization
-    year: '2025'
-  PmRv-_kAAAAJ:u5HHmVD_uO8C:
-    citations: 2
-    title: 'Beyond trivial edges: A fractional approach to cohesive subgraph detection in hypergraphs'
-    year: '2025'
+  YLL1o0AAAAAJ:u5HHmVD_uO8C:
+    citations: 6
+    title: 'AstroLibrary: A library for real-time conjunction assessment and optimal collision avoidance'
+    year: '2024'
