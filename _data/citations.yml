@@ -1,6 +1,14 @@
 metadata:
-  last_updated: '2026-06-03'
+  last_updated: '2026-08-05'
 papers:
+  YLL1o0AAAAAJ:2osOgNQ5qMEC:
+    citations: 0
+    title: Aligning Few-Step Generative Models by Amortizing Sample-based Variational Inference
+    year: '2026'
+  YLL1o0AAAAAJ:9yKSN-GCB0IC:
+    citations: 0
+    title: Solving Integer Linear Programming with Parallel Tempering
+    year: '2026'
   YLL1o0AAAAAJ:d1gkVwhDpl0C:
     citations: 1
     title: Posterior Inference in Latent Space for Scalable Constrained Black-box Optimization
