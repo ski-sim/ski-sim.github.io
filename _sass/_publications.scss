@@ -23,12 +23,19 @@
     }
   }
 
-  h2.bibliography {
+  h2.bibliography,
+  h2.year {
     color: var(--global-divider-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
+  }
+
+  h2.year:first-of-type {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 1rem;
   }
 
   ol.bibliography {
