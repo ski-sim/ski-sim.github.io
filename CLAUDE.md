@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## About This Site
 
-This is **Woocheol Shin's personal academic homepage** — a customized fork of the [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme. Live at https://Shin-woocheol.github.io. The upstream theme docs (README.md, CUSTOMIZE.md, INSTALL.md, FAQ.md, TROUBLESHOOTING.md) describe the generic theme; everything in this CLAUDE.md is about _this specific site_.
+This is **Kyuil Sim's personal academic homepage** — a customized fork of the [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme. Live at https://ski-sim.github.io. The upstream theme docs (README.md, CUSTOMIZE.md, INSTALL.md, FAQ.md, TROUBLESHOOTING.md) describe the generic theme; everything in this CLAUDE.md is about _this specific site_.
 
 Recent direction (see `git log`): adopted Kelly He-style venue badges + news block + navbar; author-name fixes in publications; Google Analytics enabled.
 
@@ -56,7 +56,7 @@ When editing, consult the matching file in `.github/instructions/` for conventio
 
 This is a **personal site** (`username.github.io`), so in `_config.yml`:
 
-- `url: https://Shin-woocheol.github.io`
+- `url: https://ski-sim.github.io`
 - `baseurl:` **must stay empty**
 
 Do not add a `baseurl` value — it will break all CSS/JS/image paths. (Only project sites at `username.github.io/repo-name/` use `baseurl`.)
