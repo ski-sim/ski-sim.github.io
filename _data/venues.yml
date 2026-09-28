@@ -19,6 +19,10 @@
 "JSSE":
   color: "#6c757d"
 
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#6A1B9A"
+
 "NeurIPS Workshop":
   url: https://neurips.cc/
   color: "#6A1B9A"
