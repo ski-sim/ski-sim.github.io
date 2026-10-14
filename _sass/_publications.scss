@@ -74,11 +74,13 @@
       border: 1px solid var(--global-divider-color);
       border-radius: 8px;
       padding: 1rem;
+      overflow: hidden;
 
       .row {
         display: flex;
         align-items: stretch;
         height: 100%;
+        margin: 0;
       }
 
       .preview {
