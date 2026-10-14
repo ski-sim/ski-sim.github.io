@@ -1,0 +1,26 @@
+<div class="education">
+  <table class="table table-sm table-borderless">
+    {% for edu in site.data.education %}
+      <tr>
+        <td class="edu-logo-cell">
+          <a href="{{ edu.url }}" target="_blank">
+            <img
+              src="{{ '/assets/img/' | append: edu.logo | relative_url }}"
+              alt="{{ edu.institution }}"
+              class="edu-logo"
+            >
+          </a>
+        </td>
+        <td class="edu-info-cell">
+          <strong
+            ><a href="{{ edu.url }}" target="_blank">{{ edu.institution }}</a></strong
+          >
+          <br>
+          {{ edu.degree }}
+          <br>
+          <span class="edu-period">{{ edu.period }}</span>
+        </td>
+      </tr>
+    {% endfor %}
+  </table>
+</div>

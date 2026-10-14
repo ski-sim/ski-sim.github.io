@@ -56,3 +56,63 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+/*****************************************************************************
+* News
+*****************************************************************************/
+
+.news-scrollable {
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+/*****************************************************************************
+* Education
+*****************************************************************************/
+
+.education {
+  table {
+    margin-bottom: 0;
+  }
+
+  tr {
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .edu-logo-cell {
+    width: 120px;
+    padding: 0.75rem 1rem 0.75rem 0;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .edu-logo {
+    max-width: 100px;
+    max-height: 50px;
+    object-fit: contain;
+    filter: var(--global-edu-logo-filter, none);
+  }
+
+  .edu-info-cell {
+    vertical-align: middle;
+    padding: 0.75rem 0;
+
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .edu-period {
+    font-size: 0.875rem;
+    color: var(--global-text-color-light);
+  }
+}

@@ -1,0 +1,11 @@
+- institution: KAIST
+  url: https://ie.kaist.ac.kr/
+  degree: "M.S., Industrial & Systems Engineering"
+  period: "Feb 2025 – Present"
+  logo: kaist_logo.gif
+
+- institution: Hanyang University
+  url: https://ie.hanyang.ac.kr/
+  degree: "B.S., Industrial Engineering"
+  period: "Feb 2019 – Feb 2025"
+  logo: hanyang_logo.png

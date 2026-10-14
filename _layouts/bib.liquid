@@ -16,9 +16,15 @@
             {% endif -%}
           >
             {% if site.data.venues[entry.abbr].url %}
-              <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
+              <a href="{{ site.data.venues[entry.abbr].url }}">
+                {{- entry.abbr -}}
+                {%- if entry.year %} {{ entry.year }}{% endif -%}
+              </a>
             {% else %}
-              <div>{{- entry.abbr -}}</div>
+              <div>
+                {{- entry.abbr -}}
+                {% if entry.year %} {{ entry.year }}{% endif %}
+              </div>
             {% endif %}
           </abbr>
         {% else %}
