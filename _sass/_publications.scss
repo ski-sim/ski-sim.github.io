@@ -4,6 +4,31 @@
 
 @use "variables" as v;
 
+.topic-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+
+  .topic-btn {
+    padding: 0.3rem 1rem;
+    border: 1px solid var(--global-theme-color);
+    border-radius: 20px;
+    background: transparent;
+    color: var(--global-theme-color);
+    cursor: pointer;
+    font-size: 0.875rem;
+    transition: all 0.15s ease;
+
+    &:hover,
+    &.active {
+      background: var(--global-theme-color);
+      color: white;
+    }
+  }
+}
+
 .publications {
   margin-top: 2rem;
 

@@ -49,6 +49,10 @@
 
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+    <!-- Topic tags (hidden, used for filtering) -->
+    {% if entry.topic %}
+      <span class="paper-topic" style="display:none;" aria-hidden="true">{{ entry.topic }}</span>
+    {% endif %}
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
