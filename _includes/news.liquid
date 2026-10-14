@@ -18,7 +18,9 @@
         {% for item in news limit: news_limit %}
           {% assign curr_year = item.date | date: '%Y' %}
           {% if prev_year != '' and curr_year != prev_year %}
-            <tr><td colspan="2"><hr style="margin: 4px 0;"></td></tr>
+            <tr>
+              <td colspan="2"><hr style="margin: 4px 0;"></td>
+            </tr>
           {% endif %}
           {% assign prev_year = curr_year %}
           <tr>

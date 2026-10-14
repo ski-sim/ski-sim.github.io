@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two papers accepted to [ICML 2026 Workshop SPIGM](https://icml.cc/)!
+2 papers accepted to [ICML 2026 Workshop SPIGM](https://icml.cc/)!

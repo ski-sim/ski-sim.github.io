@@ -41,6 +41,8 @@
             alt=entry.preview
           %}
         {% endif %}
+      {% else %}
+        <div class="preview-placeholder rounded"></div>
       {% endif %}
     </div>
   {% endif %}
@@ -222,7 +224,7 @@
         <a href="https://hal.science/{{ entry.hal }}" class="btn btn-sm z-depth-0" role="button">HAL</a>
       {% endif %}
       {% if entry.paper %}
-        <a href="{{ entry.paper }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
+        <a href="{{ entry.paper }}" class="paper btn btn-sm z-depth-0" role="button">Paper</a>
       {% endif %}
       {% if entry.html %}
         {% if entry.html contains '://' %}
@@ -254,7 +256,7 @@
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
       {% endif %}
       {% if entry.code %}
-        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+        <a href="{{ entry.code }}" class="code btn btn-sm z-depth-0" role="button">Code</a>
       {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}

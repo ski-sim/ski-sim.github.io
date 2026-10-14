@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two papers accepted to [NeurIPS 2026](https://neurips.cc/)!
+2 papers accepted to [NeurIPS 2026](https://neurips.cc/)!

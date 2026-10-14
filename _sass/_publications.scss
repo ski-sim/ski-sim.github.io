@@ -44,10 +44,29 @@
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
+      min-height: 160px;
+      border: 1px solid var(--global-divider-color);
+      border-radius: 8px;
+      padding: 1rem;
+
+      .row {
+        display: flex;
+        align-items: stretch;
+        height: 100%;
+      }
 
       .preview {
         display: inline-block;
+        width: 100%;
+      }
+
+      .preview-placeholder {
+        width: 100%;
+        min-height: 120px;
+        background-color: var(--global-code-bg-color);
+        border: 1px dashed var(--global-divider-color);
+        opacity: 0.6;
       }
 
       .abbr {
@@ -123,6 +142,29 @@
         }
         a.award.btn {
           border-color: var(--global-highlight-color);
+        }
+        a.paper.btn {
+          color: var(--global-card-bg-color);
+          background-color: var(--global-theme-color);
+          border-color: var(--global-theme-color);
+          font-weight: 600;
+
+          &:hover {
+            opacity: 0.85;
+            color: var(--global-card-bg-color);
+          }
+        }
+        a.code.btn {
+          color: #fff;
+          background-color: #555;
+          border-color: #555;
+          font-weight: 600;
+
+          &:hover {
+            background-color: #333;
+            border-color: #333;
+            color: #fff;
+          }
         }
       }
 
