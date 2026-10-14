@@ -40,10 +40,6 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- Education -->
-    <h2 class="about-section-heading">Education</h2>
-    {% include education.liquid %}
-
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2 class="about-section-heading">
@@ -67,6 +63,10 @@ layout: default
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
+
+    <!-- Education -->
+    <h2 class="about-section-heading">Education</h2>
+    {% include education.liquid %}
 
     <!-- Social -->
     {% if page.social %}
