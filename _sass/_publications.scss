@@ -79,11 +79,15 @@
           color: white !important;
 
           a {
-            color: white;
+            color: white !important;
 
             &:hover {
               text-decoration: none;
             }
+          }
+
+          div {
+            color: white !important;
           }
         }
 
