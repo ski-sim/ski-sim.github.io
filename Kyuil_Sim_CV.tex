@@ -1,0 +1,155 @@
+%-------------------------------------------------------------------------------
+% Kyuil Sim -- Curriculum Vitae
+% Compile with pdfLaTeX.
+%-------------------------------------------------------------------------------
+\documentclass[11pt,a4paper]{moderncv}
+
+\moderncvstyle[fullrules]{banking}
+\moderncvcolor{black}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{enumitem}
+
+%-------------------------------------------------------------------------------
+% Style tweaks
+%-------------------------------------------------------------------------------
+\renewcommand*{\sectionfont}{\large\mdseries\upshape}
+\renewcommand*{\namestyle}[1]{{\namefont\textcolor{color1}{#1}}\vspace{14pt}}
+\renewcommand*{\addressfont}{\small\mdseries\upshape}
+
+\nopagenumbers{}
+
+\newcommand*{\entrybullet}{{\tiny\faCircle[regular]}}
+\newlength{\entryindent}
+\setlength{\entryindent}{10.9pt}
+
+\newenvironment{cvlist}%
+  {\vspace{-3.4pt}%
+   \begin{itemize}[label=\hspace{-0.5pt}\entrybullet, leftmargin=\entryindent,
+                   labelsep=0pt, labelwidth=\entryindent, align=left,
+                   topsep=0pt, partopsep=0pt, parsep=0pt, itemsep=5.9pt]\small}%
+  {\end{itemize}\vspace{-2.5pt}}
+
+\newcommand{\cvevent}[3]{%
+  \item \textbf{#1}\hfill #2%
+  \ifx\relax#3\relax\else\par #3\fi}
+
+\newenvironment{publist}%
+  {\begin{itemize}[leftmargin=21.9pt, labelsep=5pt, align=right,
+                   topsep=5.1pt, itemsep=5.1pt, parsep=0pt, partopsep=0pt]\small}%
+  {\end{itemize}}
+\newcommand{\pub}[4]{% label, title, authors, venue
+  \item[{[#1]}] \textbf{#2}\\ #3\\ #4}
+
+\newcommand{\ul}[1]{\underline{#1}\rule[-5.4pt]{0pt}{0pt}}
+
+\newcommand*{\me}{\textbf{\underline{Kyuil Sim}}}
+\newcommand*{\meeq}{\textbf{\underline{Kyuil Sim*}}}
+\newcommand*{\sep}{\hspace{7.5pt}|\hspace{7.5pt}}
+\newcommand*{\icon}[1]{#1\hspace{5pt}}
+
+%-------------------------------------------------------------------------------
+% Personal data
+%-------------------------------------------------------------------------------
+\name{Kyuil Sim}{}
+\extrainfo{%
+  \href{https://ski-sim.github.io/}{\icon{\faGlobe}ski-sim.github.io}\sep
+  \href{https://scholar.google.com/citations?user=YLL1o0AAAAAJ}{\icon{\faGoogle}Google Scholar}\sep
+  \href{mailto:kyuil.sim@kaist.ac.kr}{\icon{\faEnvelope}kyuil.sim@kaist.ac.kr}}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+\vspace*{-19pt}
+\makecvtitle
+\vspace{-32pt}
+
+%-------------------------------------------------------------------------------
+\section{Research Interest}
+I am broadly interested in leveraging Machine Learning for Combinatorial Optimization (ML4CO)
+to solve complex, real-world problems, with a particular focus on integrating ML with
+Mixed-Integer Linear Programming (MILP). Currently, my research centers on exploring and
+developing discrete diffusion models to tackle these optimization challenges.
+
+%-------------------------------------------------------------------------------
+\section{Education}
+\vspace{3pt}
+\cventry[.42em]{Feb. 2025 $\sim$ Present}{M.S. Graduate School of Industrial \& Systems Engineering}{KAIST}{}{}{}
+\cventry[.42em]{Feb. 2019 $\sim$ Feb. 2025}{B.S. Industrial Engineering}{Hanyang University}{}{}{}
+\vspace{-8.1pt}
+
+%-------------------------------------------------------------------------------
+\section{Research Experience}
+\begin{cvlist}
+\cvevent{System Intelligence Lab, KAIST}{Jul. 2024 $\sim$ Sep. 2024}{%
+  Undergraduate Research Intern\\
+  Advisor: Prof. Jinkyoo Park (jinkyoo.park@kaist.ac.kr)\\
+  Focus: \ul{Neural Combinatorial Optimization, Reinforcement Learning}}
+
+\cvevent{Financial Innovation \& AnalytiX Lab (FINX Lab), Hanyang University}{Aug. 2023 $\sim$ Feb. 2024}{%
+  Undergraduate Researcher\\
+  Advisor: Prof. Jaewook Song (jwsong@hanyang.ac.kr)\\
+  Focus: \ul{Link optimization, Collision probability estimation}}
+\end{cvlist}
+
+%-------------------------------------------------------------------------------
+\section{Research Papers}
+{\small *Equal contribution\par}
+\vspace{2.8pt}
+\noindent{\small\textbf{Conference Papers}\par}
+\begin{publist}
+  \pub{C1}{Aligning Few-Step Generative Models by Amortizing Sample-based Variational Inference}
+      {Jaewoo Lee*, Hyeongyu Kang*, Dohyun Kim, \me, Woocheol Shin, Minsu Kim, Taeyoung Yun,
+       Jeongjae Lee, Sanghyeok Choi, Tabitha Edith Lee, Jong Chul Ye, Jinkyoo Park}
+      {NeurIPS 2026}
+\end{publist}
+
+\noindent{\small\textbf{Workshop Papers}\par}
+\begin{publist}
+  \pub{W2}{Solving Integer Linear Programming with Parallel Tempering}
+      {\me, Sanghyeok Choi, Jinkyoo Park}
+      {ICML Workshop 2026}
+  \pub{W1}{Posterior Inference in Latent Space for Scalable Constrained Black-box Optimization}
+      {Kiyoung Om*, \meeq, Taeyoung Yun*, Hyeongyu Kang, Jinkyoo Park}
+      {NeurIPS Workshop 2025}
+\end{publist}
+
+\noindent{\small\textbf{Journal Papers}\par}
+\begin{publist}
+  \pub{J1}{AstroLibrary: A library for real-time conjunction assessment and optimal collision avoidance}
+      {Shawn SH Choi, Peter JH Ryu, \me, Jaedong Seong, Jae Wook Song, Misoon Mah, Douglas DS Kim}
+      {Journal of Space Safety Engineering (JSSE) 2024}
+\end{publist}
+
+%-------------------------------------------------------------------------------
+\section{Teaching Experience}
+\begin{cvlist}
+\cvevent{Teaching Assistant, KAIST}{Sep. 2025 $\sim$ Dec. 2025}{%
+  IE251: Manufacturing Process Innovation}
+\end{cvlist}
+
+%-------------------------------------------------------------------------------
+\section{Other Experiences}
+\begin{cvlist}
+\cvevent{SPACEMAP}{Aug. 2023 $\sim$ Feb. 2024}{%
+  Software Engineer Intern\\
+  Developed satellite collision probability algorithms and shortest-path algorithms for satellite communications.}
+\end{cvlist}
+
+%-------------------------------------------------------------------------------
+\section{References}
+\begin{cvlist}
+\cvevent{Associate Professor, Jinkyoo Park}{}{%
+  Department of Industrial and Systems Engineering\\
+  Adjunct Associate Professor, Graduate School of Data Science and Graduate School of AI\\
+  KAIST\\
+  Email: \ul{\href{mailto:jinkyoo.park@kaist.ac.kr}{\texttt{jinkyoo.park@kaist.ac.kr}}}}
+
+\cvevent{Associate Professor, Jaewook Song}{}{%
+  Department of Industrial Engineering\\
+  Hanyang University\\
+  Email: \ul{\href{mailto:jwsong@hanyang.ac.kr}{\texttt{jwsong@hanyang.ac.kr}}}}
+\end{cvlist}
+
+\end{document}
