@@ -10,7 +10,7 @@ time: Tuesdays and Thursdays, 10:00-11:30 AM
 course_id: intro-machine-learning
 schedule:
   - week: 1
-    date: Sept 5
+    date: Sep 5
     topic: Course Introduction
     description: Overview of machine learning, course structure, and expectations.
     materials:
@@ -20,7 +20,7 @@ schedule:
         url: /assets/pdf/example_pdf.pdf
 
   - week: 2
-    date: Sept 12
+    date: Sep 12
     topic: Linear Regression
     description: Introduction to linear regression, gradient descent, and model evaluation.
     materials:
@@ -30,7 +30,7 @@ schedule:
         url: /assets/pdf/example_pdf.pdf
 
   - week: 3
-    date: Sept 19
+    date: Sep 19
     topic: Classification
     description: Logistic regression, decision boundaries, and multi-class classification.
     materials:
@@ -40,7 +40,7 @@ schedule:
         url: https://github.com/
 
   - week: 4
-    date: Sept 26
+    date: Sep 26
     topic: Decision Trees and Random Forests
     description: Tree-based methods, ensemble learning, and feature importance.
     materials:

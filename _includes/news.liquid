@@ -21,7 +21,7 @@
           {% endif %}
           {% assign prev_year = curr_year %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %Y' | capitalize | replace: 'Sep', 'Sept' }}</th>
+            <th scope="row" style="width: 20%">{{ item.date | date: '%b %Y' | capitalize }}</th>
             <td>
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
