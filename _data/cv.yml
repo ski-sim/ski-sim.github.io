@@ -72,6 +72,12 @@ cv:
         summary: "IE251: Manufacturing Process Innovation"
 
     Publications:
+      - title: "Noise-Space Reward Alignment for Few-Step Generative Models"
+        authors:
+          - "Woocheol Shin, Taeyoung Yun, Jiwon Sung, Hyeongyu Kang, Jeongmin Park, Jaewoo Lee, Kyuil Sim, Dohyun Kim, Yutong He, Jinkyoo Park"
+        publisher: "arXiv"
+        releaseDate: 2026
+
       - title: "FestDPO: Few-step Generator Alignment with Direct Preference Optimization"
         authors:
           - "Jaewoo Lee*, Kyuil Sim*, Hyeongyu Kang, Kanghoon Lee, Woocheol Shin, and Jinkyoo Park"
