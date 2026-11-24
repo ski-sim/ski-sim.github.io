@@ -64,6 +64,12 @@ cv:
         summary: "IE251: Manufacturing Process Innovation"
 
     Publications:
+      - title: "FestDPO: Few-step Generator Alignment with Direct Preference Optimization"
+        authors:
+          - "Jaewoo Lee*, Kyuil Sim*, Hyeongyu Kang, Kanghoon Lee, Woocheol Shin, and Jinkyoo Park"
+        publisher: "arXiv"
+        releaseDate: 2026
+
       - title: "Solving Integer Linear Programming with Parallel Tempering"
         authors:
           - "Kyuil Sim, Sanghyeok Choi, Jinkyoo Park"
@@ -73,14 +79,14 @@ cv:
       - title: "Aligning Few-Step Generative Models by Amortizing Sample-based Variational Inference"
         authors:
           - "Jaewoo Lee, Hyeongyu Kang, Dohyun Kim, Kyuil Sim, Woocheol Shin, Minsu Kim, Taeyoung Yun, Jeongjae Lee, Sanghyeok Choi, Tabitha Edith Lee, Jong Chul Ye, Jinkyoo Park"
-        publisher: "ICML Workshop"
+        publisher: "NeurIPS"
         releaseDate: 2026
 
       - title: "Posterior Inference in Latent Space for Scalable Constrained Black-box Optimization"
         authors:
           - "Kiyoung Om*, Kyuil Sim*, Taeyoung Yun*, Hyeongyu Kang, Jinkyoo Park"
-        publisher: "NeurIPS Workshop"
-        releaseDate: 2025
+        publisher: "NeurIPS"
+        releaseDate: 2026
 
       - title: "AstroLibrary: A library for real-time conjunction assessment and optimal collision avoidance"
         authors:
@@ -91,8 +97,8 @@ cv:
     Awards:
       - title: Best Award, ISE & GSDS Research Day Poster Competition
         awarder: KAIST
-        date: 2025-11
-        summary: "For the poster: Diffusion Finetuning via Reparameterized Policy Gradient of the Soft Q-function"
+        date: 2026-11
+        summary: "Solving Integer Linear Programming with Parallel Tempering"
 
     # Scholarships:
     # - title: KAIST Scholarship
