@@ -22,9 +22,17 @@ cv:
         location: Daejeon, South Korea
         url: https://gsds.kaist.ac.kr/
         area: Industrial & Systems Engineering
-        studyType: M.S., Graduate School of Industrial and Systems Engineering
-        start_date: 2025-02
+        studyType: Ph.D., Department of Industrial and Systems Engineering
+        start_date: 2027-02
         end_date: Present
+
+      - institution: KAIST
+        location: Daejeon, South Korea
+        url: https://gsds.kaist.ac.kr/
+        area: Industrial & Systems Engineering
+        studyType: M.S., Department of Industrial and Systems Engineering
+        start_date: 2025-02
+        end_date: 2027-02
 
       - institution: Hanyang University
         location: Seoul, South Korea
